@@ -4,23 +4,24 @@ A  Python project that uses machine learning (esp. LSTM/GRU models) to predict s
 ## Requirements
 Python 3.8+
 
-pandas, numpy, scikit-learn
+pandas, numpy, scikit-learn, ta
 
 TensorFlow/Keras or PyTorch
 
 yfinance or alpha_vantage (or your preferred data source)
 
 Optional: matplotlib/seaborn for plotting
-
+          statsmodels
 ## Models
-Built-in support for:
-
 LSTM – great for capturing temporal dependencies
+Random Forest Regressor - good at handling noisy data
+SVR Regressor
+Linear Regressor
+XGBoost Regressor
+KNeighbors Regressor
+MLP Regressor
 
-GRU – lighter than LSTM, similar performance
-
-Easily extendable to include RNN, Transformer, ARIMA, XGBoost, etc.
-
+All models are taken into a passthrough meta-learner
 ## License
 Apache License 2.0 — do whatever you want, just don’t sue me.
 
