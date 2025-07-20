@@ -13,13 +13,13 @@ yfinance or alpha_vantage (or your preferred data source)
 Optional: matplotlib/seaborn for plotting
           statsmodels
 ## Models
-LSTM – great for capturing temporal dependencies
-Random Forest Regressor - good at handling noisy data
-SVR Regressor
-Linear Regressor
-XGBoost Regressor
-KNeighbors Regressor
-MLP Regressor
+* LSTM – great for capturing temporal dependencies
+* Random Forest Regressor - good at handling noisy data
+* SVR Regressor
+* Linear Regressor
+* XGBoost Regressor
+* KNeighbors Regressor
+* MLP Regressor
 
 All models are taken into a passthrough meta-learner
 ## License
